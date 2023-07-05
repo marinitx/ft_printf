@@ -6,7 +6,7 @@
 #    By: mhiguera <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/04 15:56:58 by mhiguera          #+#    #+#              #
-#    Updated: 2023/07/04 16:13:23 by mhiguera         ###   ########.fr        #
+#    Updated: 2023/07/05 14:47:10 by mhiguera         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ SRC = ft_printf.c ft_printutils.c ft_printutils2.c
 OBJS = $(SRC:.c=.o)
 C = gcc -c
 FLAGS = -Wall -Wextra -Werror
-NAME = libftprintf.a
+NAME = printf.a
 RM =  /bin/rm -f
 
 #.SILENT:

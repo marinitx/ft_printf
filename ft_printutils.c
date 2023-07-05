@@ -6,7 +6,7 @@
 /*   By: mhiguera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 19:27:13 by mhiguera          #+#    #+#             */
-/*   Updated: 2023/07/04 17:29:51 by mhiguera         ###   ########.fr       */
+/*   Updated: 2023/07/05 14:45:00 by mhiguera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_printf.h"
@@ -63,8 +63,8 @@ int	ft_printnbr(int num)
 			i = i + write (1, "-2", 2);
 			num = 147483648;
 		}
-		else 
-		{ 
+		else
+		{
 			ft_printchar('-');
 			num = num * -1;
 			i++;
